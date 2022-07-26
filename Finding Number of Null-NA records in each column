@@ -1,0 +1,1 @@
+df_fact_sel.select([count(when (isnan(c)| col(c).isNull(),c)).alias(c) for c in df_fact_sel.columns]).display()
