@@ -1,0 +1,14 @@
+l=[12,23,21,34,45,1,2,3]
+
+a) l.sort()
+b)Reverse sorting l.sort(reverse=True)
+c)without using list.sort:
+data_list=[24,55,23,12,2,13,45]
+l=[]
+while data_list:
+    min=data_list[0]
+    for i in data_list:
+        if min > i:
+            min=i
+    l.append(min)
+    data_list.remove(min)
