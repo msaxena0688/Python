@@ -1,0 +1,10 @@
+str="I am Mohit Saxena"
+
+Solution:
+
+    rev_lt=str.split()[::-1]
+    print(' '.join(rev_lt))
+    
+    output:
+    Saxena Mohit am I
+    
