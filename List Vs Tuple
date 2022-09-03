@@ -1,0 +1,21 @@
+1)Mutability :
+    -List is Mutable
+    -Tuple is Immutable
+    
+2)Memory Consumption:
+    -Tuple object takes less memory that list object for same data.
+    -List is slow in execution than tuple
+    -List is less efficient in memory utilization than tuple
+    
+3)Comprehension Concept-
+    -Comprehension concept is applicable only for list and not for tuple
+
+4)Packing and Unpacking :
+    -List supports packing but not support unpacking
+    -Tuple supports both packing and unpacking
+    a,b,c,d=(1,12,'hello',23) --->Not possible in list
+    
+-If you are sure there is no modification needed ,you can use tuple as it is more efficient.
+-If you know there can be modification later ,use List
+
+    
