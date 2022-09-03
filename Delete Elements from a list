@@ -1,0 +1,19 @@
+1) Del :
+    removes an item from a list given its index.
+    
+    a=[1,2,3,4,5]
+    
+    del a[1]  ---->output : [1,3,4,5]
+    
+    
+2)pop() :
+      Pop() removes an object by its index as well.The difference b/w pop and del is that pop returns the popped element while del returns the remaining list after deleting the element.
+      
+      a.pop(3)---->output: 4
+      
+3)Remove:
+      remove() removes the first instance of a matching object.
+      
+      a=[1,1,1,2,3,4,4,5]
+      a.remove('1')
+      output --->[1,1,2,3,4,4,5]
