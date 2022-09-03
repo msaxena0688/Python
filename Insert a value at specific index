@@ -1,0 +1,5 @@
+Syntax:-
+
+list_name.insert(position_number,new_element)
+
+a.insert(3,"Mohit")
