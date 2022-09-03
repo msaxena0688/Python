@@ -1,0 +1,15 @@
+-Both are list methods
+
+-Append: Can append at the end of the list,can append a single item at a time.
+
+-Extend:it will iterate thorugh the argument,only iterable objects can be given can not right int l.extend(4), need to right in list or tuple(iterable) format only
+
+l=[1,2,3]
+l.append([4,5,6]) --->can also provide tuple
+--Output [1,2,3,[4,5,6]]
+
+l.extend([4,5,6])
+--output --> [1,2,3,4,5,6]
+
+l.append('Hello')   --->[1,2,3,4,'Hello']
+l.extend('Hello') ----> [1,2,3,4,'H','e','l','l','o']
