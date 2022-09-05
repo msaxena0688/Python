@@ -1,0 +1,20 @@
+Array : If you need to store group of elements of same datatype.
+        Array used less memory than List
+        
+List: if you need to store group of elements of same or different datatype.
+      -Lists are mutable so we can modify its elements.
+      -List uses more memory than Array.
+      
+Tuple: If you need to store group of elements of same or different datatype
+      - Tuples are used to store data which should not be modified.
+      -It occupies less memory compared to list.
+      
+Set: If you need to store unordered group of elements of same or different datatypes.
+     -A set does not accept duplicate elemets.
+     -Sets are mutable so we can modify its element.
+     -Sets are unordered so we can not access its element using index.
+     
+Dictionary: If you need to store elements in the form of Key-value pair of same or different datatype.
+        -Dictionaries are mutable and so we can modify its item.
+        -as of Python 3.7 dictionaries are ordered.
+        -Dictionaries do not allow duplicates.
